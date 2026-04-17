@@ -22,7 +22,7 @@ const Resume = () => {
           <p style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>
             Download my resume to see my experience, education, and skills in detail.
           </p>
-          <a href="/resume.pdf" style={styles.downloadBtn} className="neon-btn">
+          <a href="/Resume.pdf" download style={styles.downloadBtn} className="neon-btn">
             Download PDF
           </a>
         </motion.div>
