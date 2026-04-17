@@ -109,6 +109,7 @@ const styles = {
     fontSize: '1.2rem',
     color: 'var(--text-secondary)',
     maxWidth: '500px',
+    textAlign: 'justify',
   },
   rightSideContainer: {
     flex: '1 1 400px',
