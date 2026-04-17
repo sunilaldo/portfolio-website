@@ -4,7 +4,7 @@ import { Github, Linkedin, Code } from 'lucide-react';
 
 const socials = [
   { icon: <Github />, url: 'https://github.com/sunilaldo' },
-  { icon: <Linkedin />, url: 'https://linkedin.com/in/sunil-aldo' },
+  { icon: <Linkedin />, url: 'https://www.linkedin.com/in/sunil-aldo-s-a-b29804252' },
   { icon: <Code />, url: 'https://leetcode.com/u/sunil_aldo/' }
 ];
 
