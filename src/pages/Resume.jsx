@@ -19,7 +19,7 @@ const Resume = () => {
             <Download size={48} color="var(--accent-color)" />
           </div>
           <h2 style={{ marginBottom: '10px' }}>Curriculum Vitae</h2>
-          <p style={{ color: 'var(--text-secondary)', marginBottom: '30px' }}>
+          <p style={{ color: 'var(--text-secondary)', marginBottom: '30px', textAlign: 'justify' }}>
             Download my resume to see my experience, education, and skills in detail.
           </p>
           <a href="/Resume.pdf" download style={styles.downloadBtn} className="neon-btn">

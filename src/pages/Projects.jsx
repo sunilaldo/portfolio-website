@@ -28,7 +28,7 @@ const ProjectCard = ({ project, index }) => (
       <h3 style={{ color: project.color, margin: 0, fontSize: '3rem' }}>{project.title.charAt(0)}</h3>
     </div>
     <h3 style={{ marginTop: '20px', fontSize: '1.5rem' }}>{project.title}</h3>
-    <p style={{ color: 'var(--text-secondary)', marginTop: '10px' }}>{project.desc}</p>
+    <p style={{ color: 'var(--text-secondary)', marginTop: '10px', textAlign: 'justify' }}>{project.desc}</p>
   </motion.div>
 );
 

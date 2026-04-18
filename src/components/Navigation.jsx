@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { Home, Zap, FileText, Briefcase, Code, Mail, FileQuestion, User } from 'lucide-react';
+import { Home, Zap, FileText, Briefcase, Code, Mail, FileQuestion, User, BookOpen } from 'lucide-react';
 
 const links = [
   { path: '/', label: 'Home', icon: <Home size={20} /> },
@@ -9,6 +9,7 @@ const links = [
   { path: '/projects', label: 'Projects', icon: <Briefcase size={20} /> },
   { path: '/skills', label: 'Skills', icon: <Code size={20} /> },
   { path: '/experience', label: 'Experience', icon: <FileQuestion size={20} /> },
+  { path: '/journals', label: 'Journals', icon: <BookOpen size={20} /> },
   { path: '/profiles', label: 'Profiles', icon: <User size={20} /> },
   { path: '/cta', label: 'Hire Me', icon: <Zap size={20} /> },
   { path: '/contact', label: 'Contact', icon: <Mail size={20} /> },

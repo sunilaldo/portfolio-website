@@ -86,7 +86,7 @@ const Experience = () => {
                     {item.date && <span style={styles.date}>{item.date}</span>}
                   </div>
                   <h4 style={{ color: 'var(--text-secondary)', margin: '5px 0 10px 0', fontWeight: 'normal' }}>{item.subtitle}</h4>
-                  {item.details && <p style={{ fontSize: '0.9rem', color: '#ccc' }}>{item.details}</p>}
+                  {item.details && <p style={{ fontSize: '0.9rem', color: '#ccc', textAlign: 'justify' }}>{item.details}</p>}
                 </motion.div>
               ))}
             </div>
